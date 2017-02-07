@@ -118,9 +118,7 @@ $black       : #000000;
 
 
 // Primary Colors -------------------------
-$hpe-green   : #01A982;       // HPE Green
-$hpe-black   : #333333;       // HPE Black
-$hpe-white   : #FFFFFF;       // HPE White
+
 
 // Neutrals Colors -------------------------
 $slate       : #425563;
@@ -158,13 +156,13 @@ $warning-color  : #FF8D6D !default;      // warning
 $info-color     : #2AD2C9 !default;    // Vibrants/Accent
 
 // We use these to control various global styles
-$body-bg        : #ffffff !default;        // Guideline: $cloud;
+$body-bg        : $ghost !default;        // Guideline: $cloud;
 
 // Text colors -------------------------
 //$body-font-color: #4A595F;
-$body-font-color      : #666666 !default;         // #666666: .text-default
+$body-font-color      : #0a0a0a !default;         // #666666: .text-default
 $hover-font-color     : $black;         // #000000
-$primary-font-color   : $hpe-black;     // #333333
+$primary-font-color   : #0a0a0a;     // #333333
 $secondary-font-color : #666666 !default;         // #666666
 $success-font-color   : $success-color; // #01A982
 $warning-font-color   : $warning-color; // #FF8D6D
