@@ -13,6 +13,11 @@
  get_header(); ?>
 
  <?php get_template_part( 'template-parts/featured-image' ); ?>
+ <div class="row">
+   <div class="columns small-12 text-center pagequip">
+     <?php echo get_post_meta($post->ID, "quip", true); ?>
+   </div>
+ </div>
 
  <div id="page" role="main">
 
